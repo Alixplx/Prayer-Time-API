@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times API</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="direction: rtl;">
+
+    <div style="height: 100vh;">
+
+        <div id="container">
+
+            <div id="date_name_container">
+
+                <h1 id="city_name">بغداد</h1>
+                <h6 id="date"></h6>
+            </div>
+
+            <hr />
+
+            <div class="card_container">
+
+                <div class="card">
+
+                    <div class="header">
+
+                        <h1>الفجر</h1>
+                    </div>
+
+                    <div class="body center">
+
+                        <h1 class="time" id="fajr_time">5:30</h1>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="header">
+
+                        <h1>الشروق</h1>
+                    </div>
+
+                    <div class="body center">
+
+                        <h1 class="time" id="sunrise_time">6:30</h1>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="header">
+
+                        <h1>الظهر</h1>
+                    </div>
+
+                    <div class="body center">
+
+                        <h1 class="time" id="dhurh_time">12:30</h1>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="header">
+
+                        <h1>العصر</h1>
+                    </div>
+
+                    <div class="body center">
+
+                        <h1 class="time" id="asr_time">3:30</h1>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="header">
+
+                        <h1>المغرب</h1>
+                    </div>
+
+                    <div class="body center">
+
+                        <h1 class="time" id="sunset_time">4:30</h1>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="header">
+
+                        <h1>العشاء</h1>
+                    </div>
+
+                    <div class="body center">
+
+                        <h1 class="time" id="isha_time">7:30</h1>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="center" style="margin-top: 50px;">
+
+                <select name="" id="cities_select"></select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

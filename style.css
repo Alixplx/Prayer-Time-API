@@ -1,0 +1,97 @@
+body {
+
+    background: linear-gradient(45deg, #240165, #05001c);
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+    margin: 0;
+}
+
+#city_name {
+
+    font-size: 200px;
+    font-weight: 400;
+}
+
+h6 {
+
+    font-size: 40px;
+    font-weight: 200;
+}
+
+#date_name_container {
+
+    margin-right: 40px;
+    color: white;
+}
+
+hr {
+
+    margin: 0 50px;
+    border-color: #5200e1;
+}
+
+.card_container {
+
+    height: 300px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+
+    width: 12%;
+    height: 95%;
+    background: white;
+    font-size: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 10px 5px rgb(0, 0, 0 / 30%);
+    margin: 0px 20px 0px 20px;
+}
+
+.header {
+
+    background: linear-gradient(45deg, #5709ee, #7a37bf);
+    color: white;
+}
+
+.header h1 {
+
+    font-weight: 400;
+    text-align: center;
+    padding: 3px;
+}
+
+.center {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.time {
+
+    font-size: 60px;
+    font-weight: bold;
+}
+
+select {
+
+    width: 200px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+option {
+
+    color: black;
+}
